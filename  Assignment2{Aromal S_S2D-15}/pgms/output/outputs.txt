@@ -1,0 +1,247 @@
+                    OUTPUT OF Programs
+
+    1.Program to find the maximum of two numbers.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 1max.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter two numbers:
+128 165
+165 is a maximum number
+
+    2.Program to swap two numbers.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 2swap.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter the value of x and y
+45 23
+Before Swapping
+x = 45
+y = 23
+After Swapping
+x = 23
+y = 45
+
+    3.Program to find the nth power of a given number.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 3power.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter the number
+25
+Enter the value for n (power)
+5
+The 5th power of 25 = 9765625
+
+    4.Program to convert one case to another.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 4case.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter any string : India is Republic
+Enter Choice To Which You Want To Convert String Into{Upper(U)/Lower(L)} : 
+u
+Entered String in Upper Case : INDIA IS REPUBLIC
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter any string : Republic Of India
+Enter Choice To Which You Want To Convert String Into{Upper(U)/Lower(L)} : 
+l
+Entered String in Lower Case : republic of india
+
+
+    5.Program to evaluate nCr.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 5nCr.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter a number n
+10
+Enter a number r
+4
+Value of 10C4 = 210
+
+    6.Program to sort n strings.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 6stringsort.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter no. of String : 5
+
+    Enter the 5 Strings : Bimal Aromal John Alwin Lekshmi
+
+Sorted Strings is :  
+1 Alwin
+2 Aromal
+3 Bimal
+4 John
+5 Lekshmi
+
+    7.Program to calculate the mean, variance and standard deviation.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 7meanvar.c -lm
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter Total No Of Elements:
+10
+Enter The Numbers : 
+152 586 425 154 438 784 854 101 249 374     
+Mean = 411.700012
+Variance = 62376.613
+Standard Deviation = 249.753
+
+    8.Program to simulate various string handling functions.
+
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 8stimulate.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 1
+
+ Enter first string (20 Characters Max):- Indian 
+
+ Enter second string (20 Characters Max):- Constitution
+
+ The Concatenation of two strings is IndianConstitution 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 2
+
+ Enter first string (20 Characters Max):- india
+
+ Enter second string (20 Characters Max):- america
+
+ Two strings is "india" and "america" are  not same 
+ 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 3   
+
+ Enter any string (20 Characters Max):- lamora
+
+ The reverse string of "lamora" is "aromal" 
+ 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 4
+
+ Enter any string (20 Characters Max):- Aromal
+
+ The uppercase string of "Aromal" is "AROMAL" 
+ 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 5
+
+ Enter any string (20 Characters Max):- AROMAL
+
+ The lowercase string of "AROMAL" is "aromal" 
+ 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 6
+
+ Enter any string (20 Characters Max):- Aromal
+
+ Str1 is copied into Str 
+
+ Str= Aromal 
+
+----Menu----
+ 1.strcat
+ 2.strcmp
+ 3.strrev
+ 4.strupr
+ 5.strlwr
+ 6.strcpy
+ 7.Exit 
+------------
+ Which function do you want to use:- 7
+aromal@aromal-desktop:~/Programs/assignmentfn$ 
+
+    9.Program to perform sequential and binary search.
+
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 9binsearch.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter the size of the list:5
+Enter 5 Integers in ascending order
+10 25 37 49 64
+Enter value to find
+37
+Sequential search
+37 found at location 3.
+Binary search
+37 found at location 3.
+aromal@aromal-desktop:~/Programs/assignmentfn$
+
+    10.Program to find factorial of a given number.(use recursion).
+
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 10fact.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+ Enter the Number to Find Factorial :6
+ Factorial of 6 is 720
+
+    11.Program to display english alphabets by the method of recursion.
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 11alphabet.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+English Alphabets are:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+
+    12.Program to display the first N terms of Fibonacci series.(use recursion).
+
+aromal@aromal-desktop:~/Programs/assignmentfn$ cc 12fibo.c
+aromal@aromal-desktop:~/Programs/assignmentfn$ ./a.out
+Enter terms: 20
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181
+
+
+
+
+
+
+
