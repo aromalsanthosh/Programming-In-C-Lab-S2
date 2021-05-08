@@ -1,3 +1,5 @@
+//C Program to find number of words and characters in a file
+
 #include <stdio.h>
 #include <stdlib.h>
 
