@@ -1,4 +1,4 @@
- 1. a) C Program to add two numbers using pointers
+ 1. a) C Program to add two numbers using pointers<br>
 	b) C program to swap two numbers using user defined function
  2. C program to Input and Print the elements of an array using pointers
  3. C Program to find number of words and characters in a file
