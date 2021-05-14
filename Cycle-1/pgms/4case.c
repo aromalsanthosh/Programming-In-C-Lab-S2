@@ -1,3 +1,4 @@
+//C PRogram  for case conversion
 #include <stdio.h>
 #include<string.h>
  
