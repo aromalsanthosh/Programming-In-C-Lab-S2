@@ -1,3 +1,5 @@
+//C Program for sequential and binary search
+
 #include <stdio.h>
  
 void sequential_search(int array[], int size, int n)
